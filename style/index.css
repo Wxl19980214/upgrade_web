@@ -118,4 +118,5 @@ footer {
 .qrImage {
     width: 20%;
     min-width: 50px;
+    padding-right: 4px;
 }
