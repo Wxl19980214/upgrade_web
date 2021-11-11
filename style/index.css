@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #2ec7ab;
+    width: 100%;
+    min-width: 1000px;
+    text-align: center;
+    height: 140px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#header1 {
+    padding-top: 5px;
+    font-size: 40px;
+    margin: 0;
+    color: #1468a8;
+    position: relative;
+    top: 5%;
+}
+
+#header2 {
+    font-size: 10px;
+    margin: 0;
+    color: white;
+    
+}
+
+#header3 {
+    padding-top: 10px;
+    color: #1468a8;
+}
+
+.post{
+    display: flex;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+}
+
+.postText {
+    background-color: #1468a8;
+    height: 250px;
+    width: 50%;
+    vertical-align: middle;
+    min-width: 500px;
+    color: #2ec7ab;
+    text-shadow: 2px 2px white;    
+}
+
+.postImage {
+    width: 50%;
+    height: 250px;
+    min-width: 500px;
+    background-image: url(../src/tennis.jpg);
+    background-size: 100%;
+}
+
+.text {
+    position: relative;
+    top: 15%;
+    margin: 0;
+}
+
+.view {
+    display: flex;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+}
+
+.viewText {
+    background-color: #2ec7ab;
+    height: 250px;
+    width: 50%;
+    vertical-align: middle;
+    min-width: 500px;
+    color: #1468a8;
+    text-shadow: 1px 2px white; 
+}
+
+.viewImage {
+    width: 50%;
+    height: 250px;
+    min-width: 500px;
+    background-image: url(../src/marathon.jpg);
+    background-size: 100%;
+}
+
+footer {
+    padding-top: 5px;
+    min-height: 60px;
+    height: auto;
+    min-width: 1000px;
+    background-color: #1468a8;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
