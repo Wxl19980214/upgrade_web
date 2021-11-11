@@ -8,7 +8,8 @@ body {
     width: 100%;
     min-width: 1000px;
     text-align: center;
-    height: 140px;
+    min-height: 140px;
+    height: 15vh;
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
@@ -38,13 +39,14 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
+    height: 40vh;
+    min-height: 250px;
 }
 
 .postText {
     background-color: #1468a8;
-    height: 250px;
     width: 50%;
-    vertical-align: middle;
+    height: 100%;
     min-width: 500px;
     color: #2ec7ab;
     text-shadow: 2px 2px white;    
@@ -52,16 +54,14 @@ body {
 
 .postImage {
     width: 50%;
-    height: 250px;
     min-width: 500px;
+    height: 100%;
     background-image: url(../src/tennis.jpg);
     background-size: 100%;
 }
 
-.text {
-    position: relative;
-    top: 15%;
-    margin: 0;
+p {
+    margin-top: 8%;
 }
 
 .view {
@@ -69,12 +69,14 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
+    height: 40vh;
+    min-height: 250px;
 }
 
 .viewText {
     background-color: #2ec7ab;
-    height: 250px;
     width: 50%;
+    height: 100%;
     vertical-align: middle;
     min-width: 500px;
     color: #1468a8;
@@ -83,20 +85,37 @@ body {
 
 .viewImage {
     width: 50%;
-    height: 250px;
     min-width: 500px;
     background-image: url(../src/marathon.jpg);
     background-size: 100%;
+    height: 100%;
 }
 
 footer {
     padding-top: 5px;
     min-height: 60px;
-    height: auto;
+    height: 5vh;
     min-width: 1000px;
     background-color: #1468a8;
     width: 100%;
-    text-align: center;
     font-size: 14px;
+    color:#2ec7ab;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerText {
+    padding-left: 4px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+.qr {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.qrImage {
+    width: 20%;
+    min-width: 50px;
 }
