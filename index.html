@@ -28,8 +28,34 @@
     <div class="post">
         
         <div class="postText">
-            <p> <u>START YOUR SPORT EVENT </u></p>
-                   
+            <p onclick="displayForm()"> <u>START YOUR SPORT EVENT </u></p>
+            
+            <div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Make You Event</h1>
+              
+                  <div>
+                    <label for="sport"><b>Sport</b></label>
+                  </div>
+                  <input type="text" placeholder="Enter the sport you want to play" name="sport" required>
+                  <br>
+                  <div>
+                    <label for="location"><b>Location</b></label>
+                  </div>
+
+                  <input type="text" placeholder="Enter the place your want to play" name="location" required>
+                  
+                  <div>
+                    <label for="time"><b>Time</b></label>
+                  </div>
+
+                  <input type="text" placeholder="Enter the time your want to play" name="time" required>
+                  <br>
+                  <button style="margin-right: 30px;" type="submit" class="btn">Submit</button>
+                  <button style="margin-left: 30px;" type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+              </div>
+
         </div>
 
         <div class="postImage">
