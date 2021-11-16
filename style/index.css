@@ -134,7 +134,7 @@ footer {
     border-width: 4px;
     border-style: solid;
     position: relative;
-    
+    z-index: 9;
     left: -2.5%;
 }
 
@@ -148,6 +148,6 @@ footer {
     border-width: 4px;
     border-style: solid;
     position: relative;
-    
+    z-index: 9;
     left: 2.5%;
 }
