@@ -32,8 +32,8 @@ window.onload = function () {
 
         last_i = i;
         last_j = j;
-        
-        console.log(i + " " + j);
+
+        // console.log(i + " " + j);
 
         $('#image1')
         .animate({opacity: 0.8}, 'slow', function() {
